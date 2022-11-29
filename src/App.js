@@ -2,6 +2,7 @@
 import './App.css';
 import { Formik, Field, Form } from 'formik';
 import Checkbox from './components/Checkbox';
+import RadioGroup from './components/RadioGroup';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       </Form>
     </Formik>
     <Checkbox />
+    <RadioGroup />
     </div>
   );
 }
