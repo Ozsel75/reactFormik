@@ -1,6 +1,7 @@
 
 import './App.css';
 import { Formik, Field, Form } from 'formik';
+import Checkbox from './components/Checkbox';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <br />
       </Form>
     </Formik>
+    <Checkbox />
     </div>
   );
 }
