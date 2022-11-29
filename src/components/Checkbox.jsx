@@ -33,8 +33,8 @@ function Checkbox() {
           */}
           <div id="checkbox-group">Checked</div>
           <div role="group" aria-labelledby="checkbox-group">
-            <label>
-              <Field type="checkbox" name="checked" value="One" />
+            <label className='che'>
+              <Field className='ch' type="checkbox" name="checked" value="One" />
               One
             </label>
             <label>

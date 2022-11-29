@@ -3,6 +3,7 @@ import './App.css';
 import { Formik, Field, Form } from 'formik';
 import Checkbox from './components/Checkbox';
 import RadioGroup from './components/RadioGroup';
+import MyFormYup from './components/MyFormYup';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <br />
       </Form>
     </Formik>
+    <MyFormYup />
     <Checkbox />
     <RadioGroup />
     </div>
